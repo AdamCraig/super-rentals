@@ -1,0 +1,11 @@
+<div class="announcement-list-box">
+  <ul>
+    {{#each model as |announcement|}}
+      <li>
+        {{announcement.message}}
+      </li>
+    {{/each}}
+  </ul>
+</div>
+
+{{#link-to 'index'}}Home{{/link-to}}
