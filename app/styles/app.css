@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+button {
+  font-size: 16pt;
+}
+
+.rental-list-box {
+  margin: 3px;
+  padding: 3px;
+  border: solid white 3px;
+}
+
+.new-rental-box {
+  text-align: left;
+}
+
+a {
+  font-size: 18pt;
+  font-weight: bold;
+}
